@@ -114,7 +114,7 @@ public class ArrayList2xTest {
     }
 
     @Test
-    public void shoulgGetValueProperly() {
+    public void shouldGetValueProperly() {
         //given
         initializeHolderWith_3_4_5_2_1();
 
@@ -143,7 +143,7 @@ public class ArrayList2xTest {
     }
 
     @Test
-    public void shouldRemoveValuePropoerly() {
+    public void shouldRemoveValueProperly() {
         //given
         initializeHolderWith_3_4_5_2_1();
         list.remove(2);

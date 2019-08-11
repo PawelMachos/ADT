@@ -15,6 +15,7 @@ public class ArrayList2x implements IList {
     // to do
     @Override
     public boolean isEmpty() {
+        if (size == 0) return true;
         return false;
     }
 
@@ -32,12 +33,18 @@ public class ArrayList2x implements IList {
     @Override
     public void set(int index, long value) {
 
+//        if (index < ) {
+//            holder[index] = value;
+//        }
     }
 
     //to do
     @Override
     public void remove(int index) {
 
+//        for (int i = 0; i < index; i++) {
+//            holder[i] = holder[i - 1];
+//        }
     }
 
     @Override
@@ -53,11 +60,11 @@ public class ArrayList2x implements IList {
     //to do - increment size of table
     @Override            //   0             2           size= 1
     public void add(int index, long value) {
-        for (int i = size; i > index; i--) {
-            holder[i] = holder[i - 1];
-        }
-        holder[index] = value;
-        size++;
+//        for (int i = size; i > index; i--) {
+//            holder[i] = holder[i - 1];
+//        }
+//        holder[index] = value;
+//        size++;
     }
 
     //to do - increment size of physical table
