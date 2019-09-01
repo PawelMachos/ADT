@@ -16,8 +16,6 @@ public class SelectionSort {
     }
 
 
-
-
     public int[] sort(int[] tableToSort) {
         int firstUnsortedIndex = 0;
 
