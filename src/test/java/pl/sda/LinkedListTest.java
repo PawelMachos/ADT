@@ -171,7 +171,7 @@ public class LinkedListTest{
     }
 
     @Test
-    public void lastElementShouldGetValuePropoerlyAfterRemoveEarlierLast() {
+    public void lastElementShouldGetValueProperlyAfterRemoveEarlierLast() {
         //given
         initializeHolderWith_3_4_5_2_1();
 

@@ -95,4 +95,19 @@ public class ArrayList2x <T> implements IList<T> {
             throw new IndexOutOfBoundsException(index);
         }
     }
+
+   /* public T sort(){
+        int firstUnsortedIndex = 0;
+        int minNumber = Integer.MAX_VALUE;
+        int minIndex;
+
+        for(int i = firstUnsortedIndex; i < holder.length; i++) {
+            if (holder[i] < minNumber) {
+                minNumber = holder[i];
+                minIndex = i;
+            }
+        }
+        set(minIndex, minNumber);
+
+    }*/
 }
